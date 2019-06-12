@@ -1,0 +1,8 @@
+<aura:component >
+    <aura:attribute name="msg" type="String" default="No Message passed!" />
+    
+    Aura Component says hi<br/>
+    <lightning:button label="Hi, Aura!" variant="brand" onclick="{!c.userSaysHi}" />
+    <hr/>
+    Message: {!v.msg}
+</aura:component>

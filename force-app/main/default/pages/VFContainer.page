@@ -1,0 +1,30 @@
+<apex:page >
+    <apex:includeLightning />
+    
+	<div id="auraLightning"></div>
+	<hr />
+	<hr />
+	<hr />
+	<div id="lwcLightning"></div>
+    
+    <script>
+    $Lightning.use("c:AuraApp", function() {
+        $Lightning.createComponent(
+            "c:AuraCmp",
+            { msg : "It works (Aura)!" },
+            "auraLightning",
+            function(cmp) {
+                console.log("Aura component was created");
+            }
+        );
+        $Lightning.createComponent(
+            "c:lwcCmp",
+            { msg : "It works (LWC)!" },
+            "lwcLightning",
+            function(cmp) {
+                console.log("LWC component was created");
+            }
+        );
+    });
+    </script>
+</apex:page>
