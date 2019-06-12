@@ -1,4 +1,4 @@
-# Execute in Mac using: ./EXFiles/scripts/CreateOrg.sh
+# Execute in Mac using: ./@ELTOROIT/scripts/CreateOrg.sh
 echo "*** Creating scratch Org..."
 sfdx force:org:create -f config/project-scratch-def.json --setdefaultusername --setalias soLOUT -d 1
 echo "*** Opening scratch Org..."
