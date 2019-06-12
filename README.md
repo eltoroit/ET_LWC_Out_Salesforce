@@ -3,7 +3,7 @@
 # What is this?
 This is one of two repos that will help you get started with **Lightning Out** in Visualforce and Node.js application to render **Lightning Components** both **Aura** and **LWC**.
 
-> This repo contains the Salesforce SFDX project that creates the Scratch org, and host the Lightning Components that get rendered as well as the Visualforce page that hosts them
+> This repo contains the Salesforce SFDX project that creates the Scratch org, and host the Lightning Components that get rendered as well as the Visualforce page that hosts them.
 
 The two GitHub projects are:
 - https://github.com/eltoroit/ET_LWC_Out_NodeJS
